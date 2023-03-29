@@ -30,7 +30,7 @@
         {
             this.ctrlBox = new System.Windows.Forms.ComboBox();
             this.btnProcess = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridProp = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -41,7 +41,7 @@
             this.txtEdad = new System.Windows.Forms.TextBox();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtID = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridProp)).BeginInit();
             this.SuspendLayout();
             // 
             // ctrlBox
@@ -68,15 +68,15 @@
             this.btnProcess.UseVisualStyleBackColor = true;
             this.btnProcess.Click += new System.EventHandler(this.btnProcess_Click);
             // 
-            // dataGridView1
+            // dataGridProp
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(308, 82);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(402, 232);
-            this.dataGridView1.TabIndex = 36;
+            this.dataGridProp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridProp.Location = new System.Drawing.Point(308, 82);
+            this.dataGridProp.Name = "dataGridProp";
+            this.dataGridProp.RowHeadersWidth = 62;
+            this.dataGridProp.RowTemplate.Height = 28;
+            this.dataGridProp.Size = new System.Drawing.Size(402, 232);
+            this.dataGridProp.TabIndex = 36;
             // 
             // label4
             // 
@@ -165,7 +165,7 @@
             this.ClientSize = new System.Drawing.Size(800, 456);
             this.Controls.Add(this.ctrlBox);
             this.Controls.Add(this.btnProcess);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridProp);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -178,7 +178,7 @@
             this.Controls.Add(this.txtID);
             this.Name = "Propietario";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridProp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -188,7 +188,7 @@
 
         private System.Windows.Forms.ComboBox ctrlBox;
         private System.Windows.Forms.Button btnProcess;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridProp;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;

@@ -38,10 +38,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridVehiculos = new System.Windows.Forms.DataGridView();
             this.btnProcess = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.ctrlBox = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridVehiculos)).BeginInit();
             this.SuspendLayout();
             // 
             // txtPlaca
@@ -124,15 +124,15 @@
             this.label4.TabIndex = 22;
             this.label4.Text = "Precio";
             // 
-            // dataGridView1
+            // dataGridVehiculos
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(308, 83);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(402, 232);
-            this.dataGridView1.TabIndex = 23;
+            this.dataGridVehiculos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridVehiculos.Location = new System.Drawing.Point(308, 83);
+            this.dataGridVehiculos.Name = "dataGridVehiculos";
+            this.dataGridVehiculos.RowHeadersWidth = 62;
+            this.dataGridVehiculos.RowTemplate.Height = 28;
+            this.dataGridVehiculos.Size = new System.Drawing.Size(402, 232);
+            this.dataGridVehiculos.TabIndex = 23;
             // 
             // btnProcess
             // 
@@ -142,29 +142,30 @@
             this.btnProcess.TabIndex = 24;
             this.btnProcess.Text = "Procesar";
             this.btnProcess.UseVisualStyleBackColor = true;
+            this.btnProcess.Click += new System.EventHandler(this.btnProcess_Click);
             // 
-            // comboBox1
+            // ctrlBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.ctrlBox.FormattingEnabled = true;
+            this.ctrlBox.Items.AddRange(new object[] {
             "Guardar",
             "Actualizar",
             "Eliminar",
             "Consultar",
             "Listar"});
-            this.comboBox1.Location = new System.Drawing.Point(324, 355);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(157, 28);
-            this.comboBox1.TabIndex = 25;
+            this.ctrlBox.Location = new System.Drawing.Point(324, 355);
+            this.ctrlBox.Name = "ctrlBox";
+            this.ctrlBox.Size = new System.Drawing.Size(157, 28);
+            this.ctrlBox.TabIndex = 25;
             // 
             // Vehiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 456);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.ctrlBox);
             this.Controls.Add(this.btnProcess);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridVehiculos);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -178,7 +179,7 @@
             this.Name = "Vehiculos";
             this.Text = "Form2";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Vehiculos_FormClosing);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridVehiculos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -196,8 +197,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridVehiculos;
         private System.Windows.Forms.Button btnProcess;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox ctrlBox;
     }
 }

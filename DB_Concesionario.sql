@@ -1,6 +1,9 @@
 create database DB_Concesionario;
 use DB_Concesionario;
 
+
+select * from propietario;
+
 create table vehiculo
 (
 placa varchar(8)primary key,
@@ -89,7 +92,7 @@ end
 execute usp_delete_vehiculo 'XZD 000'
 
 --consultar un vehiculo
-
+select * from vehiculo where placa = 'ARM 356';
 create procedure usp_consultar_vehiculo
 --parametros
 @placa varchar(8)

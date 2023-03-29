@@ -51,10 +51,10 @@ namespace vista_concesionario
                         EliminarPropietario();
                         break;
                     case "Consultar":
-                        ConsultarProducto();
+                        ConsultarPropietario();
                         break;
                     case "Listar":
-                        ListarProductos();
+                        ListarPropietario();
                         break;
                 }
             }
@@ -143,7 +143,7 @@ namespace vista_concesionario
             }
         }
 
-        private bool ConsultarProducto()
+        private bool ConsultarPropietario()
         {
             try
             {
@@ -157,15 +157,12 @@ namespace vista_concesionario
                 }
                 SqlDataReader readerP;
                 readerP = objP.Reader;
-                if (readerP.HasRows)
-                {
-                    readerP.Read();
-                    txtNombre.Text = readerP.GetString(1);
-                    txtApellido.Text = readerP.GetString(2);
-                    txtEdad.Text = readerP.GetDouble(3).ToString();
-                    txtTelefono.Text = readerP.GetString(3);
-                    readerP.Close();
-                }
+                readerP.Read();
+                txtNombre.Text = readerP.GetString(1);
+                txtApellido.Text = readerP.GetString(2);
+                txtEdad.Text = readerP.GetInt32(3).ToString();
+                txtTelefono.Text = readerP.GetString(4);
+                readerP.Close();
                 return true;
             }
             catch (Exception ex)
@@ -175,12 +172,12 @@ namespace vista_concesionario
             }
         }
 
-        private bool ListarProductos()
+        private bool ListarPropietario()
         {
             try
             {
                 ClsPropietario objp = new ClsPropietario();
-                if (!objp.ListarPropietario(dataGrid))
+                if (!objp.ListarPropietario(dataGridProp))
                 {
                     MessageBox.Show(objp.Error);
                     return false;

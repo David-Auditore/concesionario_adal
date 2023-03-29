@@ -33,7 +33,7 @@ namespace Concesionario
         public string Marca { get => marca; set => marca = value; }
         public double Precio { get => precio; set => precio = value; }
         public string Error { get => error; set => error = value; }
-        public SqlDataReader Reader { get => Reader; set => Reader = value; }
+        public SqlDataReader Reader { get => reader; set => reader = value; }
         #endregion
 
         #region METODOS PUBLICOS
@@ -96,7 +96,7 @@ namespace Concesionario
             try
             {
                 ClsConexion objV = new ClsConexion();
-                string query = "execute usp_delete_vehiculo '" + placa;
+                string query = "execute usp_delete_vehiculo '" + placa + "'" ;
                 if (!objV.EjecutarSentencia(query, false))
                 {
                     error = objV.Error;
@@ -115,7 +115,7 @@ namespace Concesionario
         }
         public bool ConsultarVehiculo()
         {
-            string sentencia = "execute usp_consultar_Producto " + placa;
+            string sentencia = "execute usp_consultar_vehiculo '" + placa + "'";
             ClsConexion objV = new ClsConexion();
             if (objV.Consultar(sentencia, false))
             {
@@ -134,7 +134,7 @@ namespace Concesionario
         {
             ClsLLenarGrids objG = new ClsLLenarGrids();
             objG.NombreTabla = "vehiculo";
-            objG.SQL = "execute usp_listar_vehiculo";
+            objG.SQL = "usp_listar_vehiculo";
             if (!objG.LlenarGrid(GRWdatos))
             {
                 error = objG.ERROR;
@@ -231,7 +231,7 @@ namespace Concesionario
             try
             {
                 ClsConexion objP = new ClsConexion();
-                string query = "execute usp_delete_propietario " + id;
+                string query = "execute usp_delete_propietario '" + id +"'";
                 if (!objP.EjecutarSentencia(query, false))
                 {
                     error = objP.Error;
@@ -251,7 +251,7 @@ namespace Concesionario
         }
         public bool ConsultarPropietario()
         {
-            string sentencia = "execute usp_consultar_Producto " + id;
+            string sentencia = "execute usp_consultar_propietario '" + id + "'";
             ClsConexion objP = new ClsConexion();
             if (objP.Consultar(sentencia, false))
             {
@@ -270,7 +270,7 @@ namespace Concesionario
         {
             ClsLLenarGrids objG = new ClsLLenarGrids();
             objG.NombreTabla = "propietario";
-            objG.SQL = "execute usp_listar_propietario";
+            objG.SQL = "usp_listar_propietario";
             if (!objG.LlenarGrid(GRWdatos))
             {
                 error = objG.ERROR;

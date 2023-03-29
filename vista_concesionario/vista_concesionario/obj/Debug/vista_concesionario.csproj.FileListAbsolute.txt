@@ -3,7 +3,6 @@ C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bi
 C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\vista_concesionario.pdb
 C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.csproj.AssemblyReference.cache
 C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.csproj.SuggestedBindingRedirects.cache
-C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.Form1.resources
 C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.Properties.Resources.resources
 C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.csproj.GenerateResource.cache
 C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.csproj.CoreCompileInputs.cache
@@ -12,3 +11,12 @@ C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\ob
 C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.Parent.resources
 C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.Vehiculos.resources
 C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.Propietario.resources
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\Concesionario.dll
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\LibConexionBD.dll
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\LibLlenarGrids.dll
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\LibParametro.dll
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\Concesionario.pdb
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\LibConexionBD.pdb
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\LibLlenarGrids.pdb
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\LibParametro.pdb
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.csproj.CopyComplete
