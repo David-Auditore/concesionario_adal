@@ -55,18 +55,17 @@ namespace Concesionario
                 if (!objV.EjecutarSentencia(query, false))
                 {
                     error = objV.Error;
-                    return false;
                     objV = null;
+                    return false;
                 }
                 error = "se guardo exitosamente";
-                return true;
                 objV = null;
+                return false;
             }
             catch (Exception ex)
             {
                 this.error = ex.Message;
                 return false;
-
             }
         }
         public bool ActualizarVehiculo()
@@ -78,12 +77,12 @@ namespace Concesionario
                 if (!objV.EjecutarSentencia(query, false))
                 {
                     error = objV.Error;
-                    return false;
                     objV = null;
+                    return false;
                 }
                 error = "se Actualizo exitosamente";
-                return true;
                 objV = null;
+                return true;
             }
             catch (Exception ex)
             {
@@ -131,7 +130,7 @@ namespace Concesionario
                 return false;
             }
         }
-        public bool listarVehiculo(DataGridView GRWdatos)
+        public bool ListarVehiculo(DataGridView GRWdatos)
         {
             ClsLLenarGrids objG = new ClsLLenarGrids();
             objG.NombreTabla = "vehiculo";
@@ -190,12 +189,12 @@ namespace Concesionario
                 if (!objP.EjecutarSentencia(query, false))
                 {
                     error = objP.Error;
-                    return false;
                     objP = null;
+                    return false;
                 }
                 error = "se guardo exitosamente";
-                return true;
                 objP = null;
+                return true;
             }
             catch (Exception ex)
             {
@@ -213,12 +212,12 @@ namespace Concesionario
                 if (!objP.EjecutarSentencia(query, false))
                 {
                     error = objP.Error;
-                    return false;
                     objP = null;
+                    return false;
                 }
                 error = "se Actualizo exitosamente";
-                return true;
                 objP = null;
+                return true;
             }
             catch (Exception ex)
             {
@@ -240,8 +239,8 @@ namespace Concesionario
                     objP = null;
                 }
                 error = "se Elimino correctamente";
-                return true;
                 objP = null;
+                return true;
             }
             catch (Exception ex)
             {
@@ -267,7 +266,7 @@ namespace Concesionario
                 return false;
             }
         }
-        public bool listarPropietario(DataGridView GRWdatos)
+        public bool ListarPropietario(DataGridView GRWdatos)
         {
             ClsLLenarGrids objG = new ClsLLenarGrids();
             objG.NombreTabla = "propietario";

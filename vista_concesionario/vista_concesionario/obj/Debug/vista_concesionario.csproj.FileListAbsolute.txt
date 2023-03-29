@@ -1,0 +1,14 @@
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\vista_concesionario.exe.config
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\vista_concesionario.exe
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\vista_concesionario.pdb
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.csproj.AssemblyReference.cache
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.csproj.SuggestedBindingRedirects.cache
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.Form1.resources
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.Properties.Resources.resources
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.csproj.GenerateResource.cache
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.csproj.CoreCompileInputs.cache
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.exe
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.pdb
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.Parent.resources
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.Vehiculos.resources
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.Propietario.resources

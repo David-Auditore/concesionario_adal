@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Conexion>
+  <Servidor>DESKTOP-3UMJ5DI\SQLEXPRESS</Servidor>
+  <BaseDatos>DB_Concesionario</BaseDatos>
+  <Usuario></Usuario>
+  <Password></Password>
+</Conexion>
