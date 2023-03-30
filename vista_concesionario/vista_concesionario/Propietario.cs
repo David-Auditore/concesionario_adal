@@ -38,6 +38,8 @@ namespace vista_concesionario
 
         private void btnProcess_Click(object sender, EventArgs e)
         {
+
+            ClsPropietario objp = new ClsPropietario();
             try
             {
                 switch (ctrlBox.Text)
