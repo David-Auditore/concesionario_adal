@@ -210,5 +210,10 @@ namespace vista_concesionario
             txtPrecio.Text = "";
             ctrlBox.SelectedIndex = -1;
         }
+
+        private void Vehiculos_Load(object sender, EventArgs e)
+        {
+            ListarVehiculos();
+        }
     }
 }

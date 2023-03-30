@@ -45,7 +45,7 @@
             this.ventanasToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(1258, 33);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -61,14 +61,14 @@
             // VehiculosSheet
             // 
             this.VehiculosSheet.Name = "VehiculosSheet";
-            this.VehiculosSheet.Size = new System.Drawing.Size(209, 34);
+            this.VehiculosSheet.Size = new System.Drawing.Size(270, 34);
             this.VehiculosSheet.Text = "Vehiculos";
             this.VehiculosSheet.Click += new System.EventHandler(this.VehiculosSheet_Click);
             // 
             // propietariosSheet
             // 
             this.propietariosSheet.Name = "propietariosSheet";
-            this.propietariosSheet.Size = new System.Drawing.Size(209, 34);
+            this.propietariosSheet.Size = new System.Drawing.Size(270, 34);
             this.propietariosSheet.Text = "Propietarios";
             this.propietariosSheet.Click += new System.EventHandler(this.propietariosSheet_Click);
             // 
@@ -82,12 +82,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 629);
+            this.ClientSize = new System.Drawing.Size(1258, 494);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Parent";
-            this.Text = "Form1";
+            this.Text = "Concesionario";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Parent_FormClosing);
             this.Load += new System.EventHandler(this.Parent_Load);
             this.menuStrip1.ResumeLayout(false);

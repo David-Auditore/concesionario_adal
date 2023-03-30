@@ -131,7 +131,7 @@
             this.dataGridVehiculos.Name = "dataGridVehiculos";
             this.dataGridVehiculos.RowHeadersWidth = 62;
             this.dataGridVehiculos.RowTemplate.Height = 28;
-            this.dataGridVehiculos.Size = new System.Drawing.Size(402, 232);
+            this.dataGridVehiculos.Size = new System.Drawing.Size(871, 232);
             this.dataGridVehiculos.TabIndex = 23;
             // 
             // btnProcess
@@ -162,7 +162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 456);
+            this.ClientSize = new System.Drawing.Size(1258, 456);
             this.Controls.Add(this.ctrlBox);
             this.Controls.Add(this.btnProcess);
             this.Controls.Add(this.dataGridVehiculos);
@@ -177,8 +177,9 @@
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.txtPlaca);
             this.Name = "Vehiculos";
-            this.Text = "Form2";
+            this.Text = "Vehiculo";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Vehiculos_FormClosing);
+            this.Load += new System.EventHandler(this.Vehiculos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridVehiculos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

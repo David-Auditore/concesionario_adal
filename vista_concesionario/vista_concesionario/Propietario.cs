@@ -16,6 +16,7 @@ namespace vista_concesionario
     public partial class Propietario : Form
     {
         private static Propietario instacia = null;
+
         public static Propietario Ventana_unica()
         {
             if (instacia == null)
@@ -63,6 +64,7 @@ namespace vista_concesionario
                 MessageBox.Show(ex.Message);
             }
         }
+
         private bool GuardarPropietario()
         {
             try
@@ -199,6 +201,11 @@ namespace vista_concesionario
             txtEdad.Text = "";
             txtTelefono.Text = "";
             ctrlBox.SelectedIndex = -1;
+        }
+
+        private void Propietario_Load(object sender, EventArgs e)
+        {
+            ListarPropietario();
         }
     }
 }

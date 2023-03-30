@@ -75,7 +75,7 @@
             this.dataGridProp.Name = "dataGridProp";
             this.dataGridProp.RowHeadersWidth = 62;
             this.dataGridProp.RowTemplate.Height = 28;
-            this.dataGridProp.Size = new System.Drawing.Size(402, 232);
+            this.dataGridProp.Size = new System.Drawing.Size(872, 232);
             this.dataGridProp.TabIndex = 36;
             // 
             // label4
@@ -162,7 +162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 456);
+            this.ClientSize = new System.Drawing.Size(1258, 456);
             this.Controls.Add(this.ctrlBox);
             this.Controls.Add(this.btnProcess);
             this.Controls.Add(this.dataGridProp);
@@ -177,7 +177,9 @@
             this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.txtID);
             this.Name = "Propietario";
-            this.Text = "Form1";
+            this.Text = "Propietario";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Propietarios_FormClosing);
+            this.Load += new System.EventHandler(this.Propietario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridProp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

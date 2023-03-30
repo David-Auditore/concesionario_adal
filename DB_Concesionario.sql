@@ -4,6 +4,8 @@ use DB_Concesionario;
 
 select * from propietario;
 
+select * from vehiculo;
+
 create table vehiculo
 (
 placa varchar(8)primary key,

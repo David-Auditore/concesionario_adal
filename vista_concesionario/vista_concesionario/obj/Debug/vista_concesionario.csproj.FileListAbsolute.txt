@@ -20,3 +20,4 @@ C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bi
 C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\LibLlenarGrids.pdb
 C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\bin\Debug\LibParametro.pdb
 C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.csproj.CopyComplete
+C:\Users\Molina\Desktop\Concesionario\vista_concesionario\vista_concesionario\obj\Debug\vista_concesionario.Splash.resources
