@@ -208,7 +208,7 @@ namespace Concesionario
             try
             {
                 ClsConexion objP = new ClsConexion();
-                string query = "execute usp_actualizar_propietario '" + id + "','" + nombre + "','" + apellido + "'," + edad + "','" + telefono;
+                string query = "execute usp_actualizar_propietario '" + id + "','" + nombre + "','" + apellido + "'," + edad + ",'" + telefono + "'";
                 if (!objP.EjecutarSentencia(query, false))
                 {
                     error = objP.Error;
